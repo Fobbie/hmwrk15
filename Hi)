@@ -26,9 +26,8 @@ class Main(Frame):
             com = lambda x=bt: self.logicalc(x)
             Button(text=bt, bg="#FFF",
                    font=("Times New Roman", 15),
-                   command=com).place(x=x, y=y,
-                                      width=115,
-                                      height=79)
+                   command=com).place(x=x, y=y, width=115, height=79)
+                   
             x += 117
             if x > 400:
                 x = 10
